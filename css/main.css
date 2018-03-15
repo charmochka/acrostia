@@ -1,0 +1,272 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+  .full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.navbar {
+background: #74c7d5;
+padding: 0;
+}
+
+.main-logo {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.menu-list { 
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 250px;
+}
+
+.menu__item {
+    margin: 0 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu__item:hover {
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+
+
+.menu__item  a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu__item  a:hover {
+    color: rgb(0, 189, 214);
+}
+
+section.services {
+    background-image: url(../img/bg-red.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.title__main {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.title__text {
+font-size: 20px;
+color: #fff;
+width: 1140px;
+text-align: center;
+margin: 0 auto;
+text-transform: uppercase;
+}
+
+.title__text span {
+    color: #da848a;
+}
+
+.title__text-2 {
+    font-size: 14px;
+    color: #f6bec1;
+    text-align: center;
+    width: 1150px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__block{
+    text-align: center;
+    width: 260px;
+    background-color: #c45159bb;
+    margin-top: 115px;
+    margin-bottom: 120px;
+
+}
+
+.services__icon img {
+    margin-top: 40px;
+}
+
+.services__title {
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.services__text {
+    font-size: 14px;
+    color: #fff;
+    margin: 50px 30px;
+
+}
+
+.services.d-flex {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    width: 1120px;
+}
+
+
+
+.team__block{
+    text-align: center;
+    width: 260px;
+    background-color: #5b4b59a6;
+    margin-top: 115px;
+    margin-bottom: 120px;
+
+}
+
+.team__icon img {
+    margin-top: 40px;
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #c7b6c5;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.team__text {
+    font-size: 14px;
+    color: #88aa5b;
+    margin: 15px 30px 40px 30px;
+
+}
+
+.title__text.purp {
+    color: #c7b6c5;
+    font-size: 14px;
+    text-align: center;
+    width: 1150px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: none;
+
+}
+
+.team.d-flex {
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.team {
+    background-image: url(../img/bg-purp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social li { 
+display: inline-block;
+margin: auto;
+text-align: center;
+width: 50px;
+
+}
+ 
+.social-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+section.gallery {
+    background-image: url(../img/bg-green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title__text.green {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    width: 1150px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: none;
+
+}
+
+
+.portfolio {
+margin-top: 90px;
+margin-bottom: 50px;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff; 
+  padding-left: 475px;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+.tz-gallery {
+padding: 0;
+margin-top: 50px;
+}
+
+fieldset.gallery__filter {
+    margin-right: 50px;
+}
+
+.gallery__filter label {
+    color: #fff;
+    background: #a1ca6c ;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 42px;
+}
+
+.gallery__filter input[type="radio"]:empty {
+    display: none;
+  }
+
+.gallery__filter input[type="radio"]:checked+label {
+    background: #f5c149;
+}
+
+.gallery-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #72727294;
+}
+
